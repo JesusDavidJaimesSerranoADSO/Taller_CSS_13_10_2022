@@ -1,28 +1,23 @@
-/* es estili de cascada toma como importante primero los niveles de jerarquia
-y despues en los mismos niveles de jerarqua toma los ultimos por cascada */
 
-p{
-    /* al añadir importan, es el nivel mas alto, el jefe, cambia a todoa sin excelcion
-    no importa donde lo dejes  */
-    color: darkorange !important;
+/* la metodologia bem es como usar los selectores
+de jerarquia pero con los nombres de las clases */
+
+.form{
+    background: aqua;
 }
 
-/* lod ID son mas importantes que las clases, asi que este se ejecuta con prioridad, 
-sin importar el lugar en el css */
-#num1{
+.form__p-1{
     color: blueviolet;
 }
-
-/* las clases y los atributos estan en el mismo niver de jerarquia,
- asi que toma el ultimo de ellos por cascada */
-.clase{
+.form__p-2{
+    color: yellowgreen;
+}
+.form__p-3{
+    color: peru;
+}
+.form__p-4{
+    color: maroon;
+}
+.form__p-5{
     color: blue;
-}
-[pepe="atributo"]{
-    color: rgb(3, 245, 245);
-}
-
-/* ultimo nivel de jerarquia */
-p{
-    color:red
 }
