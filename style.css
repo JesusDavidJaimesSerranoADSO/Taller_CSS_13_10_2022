@@ -4,13 +4,13 @@
 
 p{
     background-color: aqua;
+    border: solid red  2px;
+    
 }
+/* el padding separa el contenido de la caja */
 .p1{
-    display: inline;
-    background-color: blueviolet;
+    width: 600px;
 }
 .p2{
-    background-color: aqua;
-    display: inline;
+    height: 400px;
 }
-
