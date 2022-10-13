@@ -1,0 +1,35 @@
+/* selector universal  */
+*{
+    background: rosybrown;
+}
+
+/* selector de tipo */
+h1{
+    color: aqua;
+
+/* selector de clase */
+}
+.primero{
+    color: azure;
+}
+
+/* selector por id */
+#modificar{
+    /* utilizar solo para un elemento */
+    color: yellowgreen;
+}
+
+/* selector por atributo */
+[atributo="poder"]{
+    color: saddlebrown;
+}
+
+/* atributo por descendencia */
+ol li {
+    color: red;
+}
+
+/* selector por pseudo-clase */
+b:hover{
+    color: blue;
+}
