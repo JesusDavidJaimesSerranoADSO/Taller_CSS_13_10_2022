@@ -4,19 +4,19 @@
 
 p{
     background-color: aqua;
-    max-width: 20em;
+    
     border: solid red  2px;
 }
 /* el padding separa el contenido de la caja */
 .p1{
-    padding-left: 2em;
+    margin-left: 2em;
 }
 .p2{
-    padding-top: 2em;
+    margin-top: 3em;
 }
 .p3{
-    padding-right: 2em;
+    margin-right: 4em;
 }
 .p4{
-    padding-bottom: 2em;
+    margin-bottom:4em;
 }
