@@ -4,16 +4,19 @@
 
 p{
     background-color: aqua;
+    max-width: 20em;
     border: solid red  2px;
-    padding: 20px;
-    height: 160px;
-    width: 290px;
 }
 /* el padding separa el contenido de la caja */
 .p1{
-    
-    box-sizing: border-box;
+    padding-left: 2em;
 }
 .p2{
-    box-sizing: content-box;
+    padding-top: 2em;
+}
+.p3{
+    padding-right: 2em;
+}
+.p4{
+    padding-bottom: 2em;
 }
