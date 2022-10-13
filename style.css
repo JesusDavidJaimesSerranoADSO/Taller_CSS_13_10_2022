@@ -1,35 +1,28 @@
-/* selector universal  */
-*{
-    background: rosybrown;
+/* es estili de cascada toma como importante primero los niveles de jerarquia
+y despues en los mismos niveles de jerarqua toma los ultimos por cascada */
+
+p{
+    /* al añadir importan, es el nivel mas alto, el jefe, cambia a todoa sin excelcion
+    no importa donde lo dejes  */
+    color: darkorange !important;
 }
 
-/* selector de tipo */
-h1{
-    color: aqua;
-
-/* selector de clase */
-}
-.primero{
-    color: azure;
+/* lod ID son mas importantes que las clases, asi que este se ejecuta con prioridad, 
+sin importar el lugar en el css */
+#num1{
+    color: blueviolet;
 }
 
-/* selector por id */
-#modificar{
-    /* utilizar solo para un elemento */
-    color: yellowgreen;
-}
-
-/* selector por atributo */
-[atributo="poder"]{
-    color: saddlebrown;
-}
-
-/* atributo por descendencia */
-ol li {
-    color: red;
-}
-
-/* selector por pseudo-clase */
-b:hover{
+/* las clases y los atributos estan en el mismo niver de jerarquia,
+ asi que toma el ultimo de ellos por cascada */
+.clase{
     color: blue;
+}
+[pepe="atributo"]{
+    color: rgb(3, 245, 245);
+}
+
+/* ultimo nivel de jerarquia */
+p{
+    color:red
 }
