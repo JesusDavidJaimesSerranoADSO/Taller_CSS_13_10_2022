@@ -5,12 +5,15 @@
 p{
     background-color: aqua;
     border: solid red  2px;
-    
+    padding: 20px;
+    height: 160px;
+    width: 290px;
 }
 /* el padding separa el contenido de la caja */
 .p1{
-    width: 600px;
+    
+    box-sizing: border-box;
 }
 .p2{
-    height: 400px;
+    box-sizing: content-box;
 }
