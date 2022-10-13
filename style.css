@@ -1,17 +1,5 @@
+
 .propiedad1{
+    font-family: 'Silkscreen', cursive;
     font-size: 2em;
-}
-
-.propiedad2{
-    font-family: 'Times New Roman', Times, serif;
-}
-.propiedad3{
-    background-color: aquamarine;
-    line-height: 3;
-}
-/* font-stretch: normal;
-font-variant: small-caps; */
-
-.propiedad4{
-    font-weight: 700;
 }
