@@ -1,32 +1,17 @@
-/* las medidas relativas se usan para ajustar
- los las paguinas a diferentes dispositivos  */
+.propiedad1{
+    font-size: 2em;
+}
 
-.form__p-1{
-    color: blueviolet;
+.propiedad2{
+    font-family: 'Times New Roman', Times, serif;
 }
-.form__p-2{
-    color: teal;
-    font-size: 32px;
+.propiedad3{
+    background-color: aquamarine;
+    line-height: 3;
 }
-.form__p-3{
-    color: peru;
-    font-size: 2em;
-}
-.form{
-    /* el contenedor se define en un texto especifico */
-    color: maroon;
-    font-size: 28px;
-}
-.form__p-5{
-    /* multiplica los pixeles del contenedor padre por la
-    cantidd de em que colocamos */
-    font-size: 2em;
-}
-.form__p-6{
-    background: aqua;
-    width:  50vw;
-}
-.form__p-7{
-    background: yellowgreen ;
-    width: 50%;
+/* font-stretch: normal;
+font-variant: small-caps; */
+
+.propiedad4{
+    font-weight: 700;
 }
