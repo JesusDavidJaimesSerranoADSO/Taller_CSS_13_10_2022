@@ -1,23 +1,32 @@
-
-/* la metodologia bem es como usar los selectores
-de jerarquia pero con los nombres de las clases */
-
-.form{
-    background: aqua;
-}
+/* las medidas relativas se usan para ajustar
+ los las paguinas a diferentes dispositivos  */
 
 .form__p-1{
     color: blueviolet;
 }
 .form__p-2{
-    color: yellowgreen;
+    color: teal;
+    font-size: 32px;
 }
 .form__p-3{
     color: peru;
+    font-size: 2em;
 }
-.form__p-4{
+.form{
+    /* el contenedor se define en un texto especifico */
     color: maroon;
+    font-size: 28px;
 }
 .form__p-5{
-    color: blue;
+    /* multiplica los pixeles del contenedor padre por la
+    cantidd de em que colocamos */
+    font-size: 2em;
+}
+.form__p-6{
+    background: aqua;
+    width:  50vw;
+}
+.form__p-7{
+    background: yellowgreen ;
+    width: 50%;
 }
