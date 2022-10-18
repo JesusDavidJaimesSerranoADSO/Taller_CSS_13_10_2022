@@ -1,29 +1,13 @@
 *{
     font-size: 1.2em;
 }
-
+div{
+    width: 500px;
+    height: 600px;
+    background: bisque;
+    overflow: auto;
+}
 .p1{
     background:  aquamarine;
     display: block;
-}
-.p2{
-    background:  aquamarine;
-    display:inline;
-}
-
-.p3{
-    background:  aquamarine;
-    display: inline-block;
-}
-div{
-    background:  aquamarine;
-    display: table;
-}
-.p4{
-    background:  yellowgreen;
-    display: table-cell;
-}
-.p5{
-    background:  blueviolet;
-    display: table-cell;
 }
