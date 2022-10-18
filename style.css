@@ -3,13 +3,18 @@
     width: 700px;
 }
 .p1{
-    margin: 33px 0px;
+    margin: 13px 0px;
     background-color: blueviolet;
     border:  13px solid aquamarine;
     position: static;
 }
 .p2{
-    
+    margin: 13px 0px;
+    background-color: chocolate;
+    border:  13px solid aquamarine;
+    position: relative;
+    top: 60px;
+    left: 40px;
 }
 
 /* .p3{
