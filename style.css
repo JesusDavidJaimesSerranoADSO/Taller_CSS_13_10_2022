@@ -4,17 +4,17 @@ width: max-content;
 }
 
 .p1{
-    /* estructura basica, tamaño, contorno  color */
-    border: 3px solid red;
+    margin: 1.3em;
 }
 .p2{
-    border: 3px dotted blue;
+    border: 13px dotted blue;
 }
 
 .p3{
-    border: 3px double yellowgreen;
+    border: 3px solid yellowgreen;
+    padding: 2.3em;
 }
 .p4{
     border: 3px solid red;
-    border-radius: 30%;
+    line-height: 3em;
 }
