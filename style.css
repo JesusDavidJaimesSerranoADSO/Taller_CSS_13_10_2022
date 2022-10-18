@@ -5,15 +5,14 @@ div{
     width: 900px;
     background: goldenrod;
     box-sizing:content-box ;
-    position: relative;
+
 }
 
 .p1{
     background-color: chocolate;
-    margin: 0;
-    border:  13px solid aquamarine;
-    position: fixed;
-    z-index: 5;
+    border:  8px solid aquamarine;
+    position: sticky;
+    top: 0;
 }
 
 
