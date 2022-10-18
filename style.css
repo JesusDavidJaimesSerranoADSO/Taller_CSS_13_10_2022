@@ -10,16 +10,22 @@ div{
 img{
     width: 100%;
     height: 100%;
-}
-.segundo img{
-    /* se ajusta al contenido sin afectar la imagen */
-    object-fit: contain;
-}
-.tercero img{
-    /* recorta la imagen para ajustarla al contenido */
     object-fit: cover;
 }
+.primero img{
+    /* se ajusta la imagen a la izquierda */
+    object-position: left;
+}
+.segundo img{
+    /* se ajusta la imagen a la derecha */
+    
+    object-position: right;
+}
+.tercero img{
+    /* se ajusta la imagen abajo */
+    object-position: bottom;
+}
 .cuatro img {
-    /* escoje la resolcion que se ajuste */
-    object-fit: scale-down;
+     /* se ajusta la imagen abajo */
+    object-position: top;
 }
