@@ -17,6 +17,31 @@
     left: 40px;
 }
 
+.p4{
+    
+    margin: 13px 0px;
+    background-color: blueviolet;
+    border:  13px solid aquamarine;
+    position: relative;
+    top: 60px;
+    left: 40px;
+    z-index: 3;
+}
+.p5{
+    margin: 13px 0px;
+    background-color: blueviolet;
+    border:  13px solid aquamarine;
+    position: relative;
+}
+.p6{
+   margin: 13px 0px;
+   background-color: blueviolet;
+   border:  13px solid aquamarine;
+   position: relative;
+   top: -60px;
+    left: -40px;
+   
+}
 /* .p3{
     border: 3px solid yellowgreen;
     padding: 2.3em;
