@@ -1,52 +1,36 @@
 *{
     font-size: 1.3em;
-    width: 700px;
+}
+div{
+    background: goldenrod;
+    width: 800px;
+    height: 800px;
+    position: relative;
 }
 .p1{
-    margin: 13px 0px;
     background-color: blueviolet;
     border:  13px solid aquamarine;
-    position: static;
+    position: absolute;
+    top: 0;
 }
 .p2{
-    margin: 13px 0px;
     background-color: chocolate;
     border:  13px solid aquamarine;
-    position: relative;
-    top: 60px;
-    left: 40px;
+    position: absolute;
+    right: 0;
 }
 
-.p4{
-    
-    margin: 13px 0px;
+.p3{
     background-color: blueviolet;
     border:  13px solid aquamarine;
-    position: relative;
-    top: 60px;
-    left: 40px;
-    z-index: 3;
-}
-.p5{
-    margin: 13px 0px;
-    background-color: blueviolet;
-    border:  13px solid aquamarine;
-    position: relative;
-}
-.p6{
-   margin: 13px 0px;
-   background-color: blueviolet;
-   border:  13px solid aquamarine;
-   position: relative;
-   top: -60px;
-    left: -40px;
-   
-}
-/* .p3{
-    border: 3px solid yellowgreen;
-    padding: 2.3em;
+    position: absolute;
+    bottom: 0;
 }
 .p4{
-    border: 3px solid red;
-    line-height: 3em;
-}  */
+    background-color: blueviolet;
+    border:  13px solid aquamarine;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
