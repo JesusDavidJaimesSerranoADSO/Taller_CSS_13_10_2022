@@ -1,16 +1,29 @@
 *{
     font-size: 1.2em;
 }
-div{
-    background: aquamarine;
+p{
+    width: 300px;
 }
-.cuadro{
-    width: 200px;
-    height:200px;
-    background: bisque;
-    float:right
+.primero::first-line{
+    color: red;
 }
-.p1{
-    background:  aquamarine;
-    display: block;
+.segundo::first-letter{
+    text-shadow: 3px 3px 2px blue;
+    color:blueviolet;
+    font-size: 2em;
+}
+input::placeholder{
+    color: brown;
+}
+.tercero::selection{
+    color:olive;;
+    background: orangered
+}
+.cuarto::before{
+    content: "pseudo elemento";
+    background: aqua;
+}
+.cuarto::after{
+    content: " que no selccionable";
+    background: aqua;
 }
