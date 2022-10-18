@@ -1,19 +1,29 @@
 *{
     font-size: 1.2em;
 }
-div{
-    width: 900px;
-    background: goldenrod;
-    box-sizing:content-box ;
-
-}
 
 .p1{
-    background-color: chocolate;
-    border:  8px solid aquamarine;
-    position: sticky;
-    top: 0;
+    background:  aquamarine;
+    display: block;
+}
+.p2{
+    background:  aquamarine;
+    display:inline;
 }
 
-
-
+.p3{
+    background:  aquamarine;
+    display: inline-block;
+}
+div{
+    background:  aquamarine;
+    display: table;
+}
+.p4{
+    background:  yellowgreen;
+    display: table-cell;
+}
+.p5{
+    background:  blueviolet;
+    display: table-cell;
+}
