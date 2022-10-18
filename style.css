@@ -1,20 +1,23 @@
 *{
     font-size: 1.3em;
-width: max-content;
-}
 
+}
 .p1{
-    margin: 1.3em;
+    /* estructura de la sombra en caja
+    eje x. eje y, desenfoque, tamaño , color */
+    box-shadow: 3px 5px 7px 2px royalblue;
 }
-.p2{
-    border: 13px dotted blue;
+ .p2{
+    /* estructura de la sombra en texto
+    eje x. eje y, desenfoque, color */
+    text-shadow: 3px 5px 4px yellowgreen;
 }
 
-.p3{
+/* .p3{
     border: 3px solid yellowgreen;
     padding: 2.3em;
 }
 .p4{
     border: 3px solid red;
     line-height: 3em;
-}
+}  */
