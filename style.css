@@ -2,10 +2,13 @@
     font-size: 1.2em;
 }
 div{
-    width: 500px;
-    height: 600px;
+    background: aquamarine;
+}
+.cuadro{
+    width: 200px;
+    height:200px;
     background: bisque;
-    overflow: auto;
+    float:right
 }
 .p1{
     background:  aquamarine;
